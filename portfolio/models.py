@@ -78,6 +78,8 @@ class Artwork(Sortable, TimeStampedModel):
     categories = models.ManyToManyField(Category,
         related_name='artworks', null=True, blank=True
     )
+    
+    configuration_url = models.CharField(_('Configuration Url'), max_length=255)
 
     class Meta(Sortable.Meta):
         verbose_name = _('work')
