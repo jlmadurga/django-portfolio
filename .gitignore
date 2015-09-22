@@ -23,4 +23,8 @@ coverage.xml
 pep8.txt
 
 # Mac stuff and specific weirdness
-.DS\_Store
+.DS\_Store.
+
+#eclipse
+.project
+.pydevproject
